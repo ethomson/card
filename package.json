@@ -1,5 +1,5 @@
 {
-  "name": "@ethomson/card",
+  "name": "ethomson",
   "version": "1.0.1",
   "description": "A personal card for Edward Thomson (@ethomson)",
   "main": "/bin/card.js",
