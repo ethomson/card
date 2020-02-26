@@ -18,8 +18,5 @@ npx @ethomson/card
 
 ## Credit
 
-I shamelessly stole this idea from
-[David Neal](https://www.npmjs.com/package/reverentgeek),
-who completely borrowed this idea from
-[Tierney Cyren](https://github.com/bnb/bitandbang).
+I shamelessly stole this idea from [David Neal](https://www.npmjs.com/package/reverentgeek), who completely borrowed this idea from [Tierney Cyren](https://github.com/bnb/bitandbang).
 
