@@ -5,6 +5,7 @@ on: [push]
 jobs:
   publish-npm:
     runs-on: ubuntu-latest
+    name: Publish to NPM
     steps:
       - uses: actions/checkout@v2
         name: Checkout Repository
