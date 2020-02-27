@@ -1,6 +1,6 @@
 {
   "name": "ethomson",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A personal card for Edward Thomson (@ethomson)",
   "main": "/bin/card.js",
   "bin": {
