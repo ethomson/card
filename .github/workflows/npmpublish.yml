@@ -6,6 +6,8 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
     name: Publish to NPM
+    env:
+      FORCE_COLOR: 1
     steps:
       - uses: actions/checkout@v2
         name: Checkout Repository
@@ -22,6 +24,8 @@ jobs:
   publish-github-packages:
     runs-on: ubuntu-latest
     name: Publish to GitHub Packages
+    env:
+      FORCE_COLOR: 1
     steps:
       - uses: actions/checkout@v2
         name: Checkout Repository
