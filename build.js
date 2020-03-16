@@ -18,6 +18,7 @@ const data = {
   name: chalk.white('            Edward Thomson'),
   handle: chalk.white('@ethomson'),
   work: chalk.white('Product Manager at GitHub'),
+  future: chalk.white('Product Manager for npm'),
   opensource: chalk.white('Co-Maintainer, ') + chalk.red.bold('libgit2'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan.bold('ethomson'),
   npm: chalk.gray('https://npmjs.com/') + chalk.cyan.bold('~ethomson'),
@@ -27,6 +28,7 @@ const data = {
   npxNpm: chalk.cyan('npx') + ' ' + chalk.white('ethomson'),
   npxGitHub: chalk.cyan('npx') + ' ' + chalk.white('@ethomson/card  ') + chalk.cyan('(GitHub Packages)'),
   labelWork: chalk.white.bold('       Work:'),
+  labelFuture: chalk.white.bold('     Future:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
   labelnpm: chalk.white.bold('        npm:'),
@@ -41,6 +43,7 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const work = `${data.labelWork}  ${data.work}`
+const future = `${data.labelFuture}  ${data.future}`
 const opensource = `${data.labelOpenSource}  ${data.opensource}`
 const twitter = `${data.labelTwitter}  ${data.twitter}`
 const npm = `${data.labelnpm}  ${data.npm}`
@@ -54,6 +57,7 @@ const card_github = `${data.labelBlank}  ${data.npxGitHub}`
 const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                work + newline + // data.labelWork + data.work
+               future + newline + // data.labelWork + data.work
                opensource + newline + newline + // data.labelOpenSource + data.opensource
                twitter + newline + // data.labelTwitter + data.twitter
                npm + newline + // data.labelnpm + data.npm
