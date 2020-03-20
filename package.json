@@ -4,7 +4,7 @@
   "description": "A personal card for Edward Thomson (@ethomson)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "ethomson": "./bin/card.js"
   },
   "repository": {
     "type": "git",
