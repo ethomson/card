@@ -24,7 +24,7 @@ const data = {
   github: chalk.gray('https://github.com/') + chalk.cyan.bold('ethomson'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.cyan.bold('ethomson'),
   web: chalk.cyan.bold('https://edwardthomson.com'),
-  npxNpm: chalk.cyan('npx') + ' ' + chalk.white('ethomson'),
+  npxNpm: chalk.cyan('npx') + ' ' + chalk.white('ethomson        ') + chalk.cyan('(npm)'),
   npxGitHub: chalk.cyan('npx') + ' ' + chalk.white('@ethomson/card  ') + chalk.cyan('(GitHub Packages)'),
   labelWork: chalk.white.bold('       Work:'),
   labelFuture: chalk.white.bold('     Future:'),
