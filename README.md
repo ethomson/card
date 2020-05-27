@@ -8,7 +8,7 @@ It's like a rolodex but in [npm](https://npmjs.com/).
 npx ethomson
 ```
 
-## via GitHub Package Registry
+## via GitHub Packages
 
 If you're a GitHub Packages user, you can:
 
